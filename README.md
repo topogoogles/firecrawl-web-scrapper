@@ -25,7 +25,7 @@ Just provide a URL and go!
 
 ```bash
 git clone
-https://github.com/<YourUsername>/firecrawl-web-scrapper.git
+https://github.com/topogoogles/firecrawl-web-scrapper.git
 cd firecrawl-web-scrapper
  ```
 
@@ -38,8 +38,10 @@ uv venv
 source .venv/bin/activate
 # Windows (Git Bash):
 source .venv/Scripts/activate
-# Windows (Command Prompt): .venv\Scripts\activate.bat 
-# Windows (PowerShell): .venv\Scripts\Activate.ps1
+# Windows (Command Prompt):
+.venv\Scripts\activate.bat 
+# Windows (PowerShell):
+.venv\Scripts\Activate.ps1
 ```
 3.  **Install dependencies using `uv`:**
 ```bash
