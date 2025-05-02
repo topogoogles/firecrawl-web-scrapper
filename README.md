@@ -107,7 +107,7 @@ firecrawl-web-scrapper/
   ├── app.py # Main application script (entry point)  
   ├── requirements.txt # Project dependencies  
   └── utils/  
-     ├──  **init**.py # Makes 'utils' a Python package  
+     ├── __init__.py # Makes 'utils' a Python package  
      └── scraper.py # Module containing the Firecrawl interaction logic
 ```
 
